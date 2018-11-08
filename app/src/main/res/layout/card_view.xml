@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="10dp">
+
+    
+    <LinearLayout
+        android:id="@+id/example_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#e6e6e6"
+        >
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_view_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/likes"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/card_view_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/views"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+</android.support.v7.widget.CardView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/search_label"
+    android:gravity="center"
+    android:background="#ffeeff">
+
+        <EditText
+            android:id="@+id/editText_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/search"
+            />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/poup_high_resol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high_resolution"/>
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/category"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/popup_min_heigh"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Minimum Heigh: "
+            android:inputType="number"
+            android:background="@android:color/white"/>
+        <EditText
+            android:id="@+id/popup_min_width"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Minimum Width: "
+            android:inputType="number"
+            android:background="@android:color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/search"/>
+</LinearLayout>

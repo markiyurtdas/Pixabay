@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/category_fashion"
+        android:title="@string/fashion"/>
+
+    <item
+        android:id="@+id/category_nature"
+        android:title="@string/nature"/>
+    <item
+        android:id="@+id/category_backgrounds"
+        android:title="@string/backgrounds"/>
+
+    <item
+        android:id="@+id/category_science"
+        android:title="@string/science"/>
+    <item
+        android:id="@+id/category_education"
+        android:title="@string/education"/>
+
+    <item
+        android:id="@+id/category_people"
+        android:title="@string/people"/>
+    <item
+        android:id="@+id/category_feelings"
+        android:title="@string/feelings"/>
+
+    <item
+        android:id="@+id/category_religion"
+        android:title="@string/religion"/>
+    <item
+        android:id="@+id/category_health"
+        android:title="@string/health"/>
+
+    <item
+        android:id="@+id/category_places"
+        android:title="@string/places"/>
+    <item
+        android:id="@+id/category_animals"
+        android:title="@string/animals"/>
+
+    <item
+        android:id="@+id/category_industry"
+        android:title="@string/industry"/>
+    <item
+        android:id="@+id/category_food"
+        android:title="@string/food"/>
+
+    <item
+        android:id="@+id/category_computer"
+        android:title="@string/computer"/>
+    <item
+        android:id="@+id/category_sports"
+        android:title="@string/sports"/>
+
+    <item
+        android:id="@+id/category_transportation"
+        android:title="@string/transportation"/>
+    <item
+        android:id="@+id/category_travel"
+        android:title="@string/travel"/>
+
+    <item
+        android:id="@+id/category_buildings"
+        android:title="@string/buildings"/>
+    <item
+        android:id="@+id/category_business"
+        android:title="@string/business"/>
+
+    <item
+        android:id="@+id/category_music"
+        android:title="@string/music"/>
+</menu>
